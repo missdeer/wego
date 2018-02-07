@@ -30,9 +30,9 @@ Contrib
 * i18n [https://github.com/Unknwon/i18n](https://github.com/Unknwon/i18n)
 * Mysql [https://github.com/go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)
 * goconfig [https://github.com/Unknwon/goconfig](https://github.com/Unknwon/goconfig)
-* fsnotify [https://github.com/howeyc/fsnotify](https://github.com/howeyc/fsnotify)
+* fsnotify [https://github.com/fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)
 * resize [https://github.com/nfnt/resize](https://github.com/nfnt/resize)
-* blackfriday [https://github.com/slene/blackfriday](https://github.com/slene/blackfriday)
+* blackfriday [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
 
 ## Static Files
 

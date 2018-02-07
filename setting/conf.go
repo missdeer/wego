@@ -29,9 +29,9 @@ import (
 	"github.com/Unknwon/goconfig"
 	"github.com/Unknwon/i18n"
 	"github.com/beego/compress"
+	"github.com/fsnotify/fsnotify"
 	"github.com/go-tango/social-auth"
 	"github.com/go-tango/social-auth/apps"
-	"github.com/howeyc/fsnotify"
 	"github.com/lunny/log"
 	. "github.com/qiniu/api/conf"
 	"github.com/tango-contrib/cache"
@@ -443,7 +443,7 @@ func configWatcher() {
 	go func() {
 		for {
 			select {
-			case event := <-watcher.Event:
+			case event := <-watcher.Events:
 				switch filepath.Ext(event.Name) {
 				case ".ini":
 					if checkEventTime(event.Name) {
@@ -475,11 +475,11 @@ func configWatcher() {
 		}
 	}()
 
-	if err := watcher.WatchFlags("conf", fsnotify.FSN_MODIFY); err != nil {
+	if err := watcher.Add("conf"); err != nil {
 		log.Error(err)
 	}
 
-	if err := watcher.WatchFlags("conf/global", fsnotify.FSN_MODIFY); err != nil {
+	if err := watcher.Add("conf/global"); err != nil {
 		log.Error(err)
 	}
 }
