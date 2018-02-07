@@ -1,6 +1,6 @@
 package models
 
-import "github.com/go-tango/wego/modules/utils"
+import "github.com/missdeer/wego/modules/utils"
 
 // return a user salt token
 func GetUserSalt() string {

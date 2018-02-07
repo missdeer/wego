@@ -3,8 +3,8 @@ package models
 import (
 	"time"
 
-	"github.com/go-tango/wego/modules/utils"
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/modules/utils"
+	"github.com/missdeer/wego/setting"
 )
 
 // commnet content for post

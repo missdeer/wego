@@ -18,10 +18,9 @@ import (
 	"fmt"
 
 	"github.com/lunny/log"
-
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/post"
-	"github.com/go-tango/wego/modules/utils"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/post"
+	"github.com/missdeer/wego/modules/utils"
 )
 
 type TopicAdminRouter struct {

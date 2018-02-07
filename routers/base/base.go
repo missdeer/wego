@@ -26,15 +26,14 @@ import (
 	"github.com/Unknwon/i18n"
 	"github.com/go-xweb/xweb/validation"
 	"github.com/lunny/tango"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/auth"
+	"github.com/missdeer/wego/modules/utils"
+	"github.com/missdeer/wego/setting"
 	"github.com/tango-contrib/flash"
 	"github.com/tango-contrib/renders"
 	"github.com/tango-contrib/session"
 	"github.com/tango-contrib/xsrf"
-
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/auth"
-	"github.com/go-tango/wego/modules/utils"
-	"github.com/go-tango/wego/setting"
 )
 
 // baseRouter implemented global settings for all other routers.

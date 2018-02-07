@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-tango/wego/models"
+	"github.com/missdeer/wego/models"
 )
 
 func GetSecureCookie(req *http.Request, Secret, key string) (string, bool) {

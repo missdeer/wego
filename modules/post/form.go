@@ -17,10 +17,9 @@ package post
 import (
 	"github.com/Unknwon/i18n"
 	"github.com/go-xweb/xweb/validation"
-
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/utils"
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/utils"
+	"github.com/missdeer/wego/setting"
 )
 
 type PostForm struct {

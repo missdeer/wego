@@ -1,8 +1,8 @@
 package middlewares
 
 import (
-	"github.com/go-tango/wego/models"
 	"github.com/lunny/tango"
+	"github.com/missdeer/wego/models"
 	"github.com/tango-contrib/session"
 )
 

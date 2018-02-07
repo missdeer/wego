@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/setting"
 )
 
 func NumberEncode(number string, alphabet []byte) string {

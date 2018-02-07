@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/Unknwon/i18n"
-	"github.com/go-tango/wego/modules/utils"
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/modules/utils"
+	"github.com/missdeer/wego/setting"
 )
 
 // post content

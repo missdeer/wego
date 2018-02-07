@@ -19,7 +19,7 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/setting"
 )
 
 var robotTxt string
@@ -48,7 +48,7 @@ func (this *RobotRouter) Get() string {
 
 	buf := new(bytes.Buffer)
 	t.Execute(buf, map[string]interface{}{
-		"Uas": uas,
+		"Uas":      uas,
 		"Disallow": setting.Cfg.MustValue("robot", "disallow"),
 	})
 	return buf.String()

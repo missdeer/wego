@@ -21,14 +21,13 @@ import (
 	"html/template"
 	"io/ioutil"
 	"net/url"
-	"time"
-	"strings"
 	"regexp"
+	"strings"
 	"sync"
+	"time"
 
 	"github.com/Unknwon/i18n"
-
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/setting"
 )
 
 // get HTML i18n string
@@ -391,7 +390,7 @@ func FuncMap() template.FuncMap {
 }
 
 var (
-	templates   = make(map[string]*template.Template)
+	templates     = make(map[string]*template.Template)
 	templatesLock sync.RWMutex
 )
 

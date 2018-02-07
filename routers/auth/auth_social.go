@@ -18,14 +18,13 @@ import (
 	"github.com/go-tango/social-auth"
 	"github.com/lunny/log"
 	"github.com/lunny/tango"
+	"github.com/missdeer/wego/middlewares"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/auth"
+	"github.com/missdeer/wego/modules/utils"
+	"github.com/missdeer/wego/routers/base"
+	"github.com/missdeer/wego/setting"
 	"github.com/tango-contrib/session"
-
-	"github.com/go-tango/wego/middlewares"
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/auth"
-	"github.com/go-tango/wego/modules/utils"
-	"github.com/go-tango/wego/routers/base"
-	"github.com/go-tango/wego/setting"
 )
 
 type socialAuther struct {

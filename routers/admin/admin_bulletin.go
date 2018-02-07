@@ -3,10 +3,10 @@ package admin
 import (
 	"fmt"
 
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/bulletin"
-	"github.com/go-tango/wego/modules/utils"
 	"github.com/lunny/log"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/bulletin"
+	"github.com/missdeer/wego/modules/utils"
 )
 
 type BulletinAdminRouter struct {

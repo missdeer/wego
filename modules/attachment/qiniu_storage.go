@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/utils"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/utils"
 	"github.com/qiniu/api/io"
 )
 

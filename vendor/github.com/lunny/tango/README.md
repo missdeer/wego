@@ -104,7 +104,7 @@ There are already many [middlewares](https://github.com/tango-contrib) to simpli
 
 ## Cases
 
-- [Wego](https://github.com/go-tango/wego) - Discuss Forum
+- [Wego](https://github.com/missdeer/wego) - Discuss Forum
 - [dbweb](https://github.com/go-xorm/dbweb) - DB management web UI
 - [Godaily](http://godaily.org) - [github](https://github.com/godaily/news)
 - [Pugo](https://github.com/go-xiaohei/pugo) - A pugo blog

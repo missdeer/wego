@@ -15,8 +15,8 @@
 package mailer
 
 import (
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/setting"
 )
 
 // Create New mail message use MailFrom and MailUser

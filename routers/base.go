@@ -17,16 +17,15 @@
 package routers
 
 import (
-	"github.com/go-tango/wego/routers/admin"
-	"github.com/go-tango/wego/routers/api"
-	"github.com/go-tango/wego/routers/attachment"
-	"github.com/go-tango/wego/routers/auth"
-	"github.com/go-tango/wego/routers/base"
-	"github.com/go-tango/wego/routers/page"
-	"github.com/go-tango/wego/routers/post"
-	"github.com/go-tango/wego/setting"
-
 	"github.com/lunny/tango"
+	"github.com/missdeer/wego/routers/admin"
+	"github.com/missdeer/wego/routers/api"
+	"github.com/missdeer/wego/routers/attachment"
+	"github.com/missdeer/wego/routers/auth"
+	"github.com/missdeer/wego/routers/base"
+	"github.com/missdeer/wego/routers/page"
+	"github.com/missdeer/wego/routers/post"
+	"github.com/missdeer/wego/setting"
 )
 
 func Init(t *tango.Tango) {

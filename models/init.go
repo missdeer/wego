@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"github.com/go-tango/social-auth"
-	"github.com/go-tango/wego/setting"
 	"github.com/go-xorm/core"
 	"github.com/go-xorm/xorm"
+	"github.com/missdeer/wego/setting"
 )
 
 var (

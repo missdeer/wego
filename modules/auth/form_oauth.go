@@ -15,8 +15,8 @@
 package auth
 
 import (
-	"github.com/go-xweb/xweb/validation"
 	"github.com/Unknwon/i18n"
+	"github.com/go-xweb/xweb/validation"
 )
 
 // OAuth connect Register form

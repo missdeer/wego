@@ -7,8 +7,8 @@ WeGo是一个开源的论坛系统，最初是从WeTalk克隆而来，后使用 
 ### 从源代码安装
 
 ```
-go get github.com/go-tango/wego
-cd $GOPATH/src/github.com/go-tango/wego
+go get github.com/missdeer/wego
+cd $GOPATH/src/github.com/missdeer/wego
 go build
 ```
 

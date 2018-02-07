@@ -9,8 +9,8 @@ An open source forum system for Gopher community forked from WeTalk and rewritte
 ### From source
 
 ```
-go get github.com/go-tango/wego
-cd $GOPATH/src/github.com/go-tango/wego
+go get github.com/missdeer/wego
+cd $GOPATH/src/github.com/missdeer/wego
 go build
 ```
 

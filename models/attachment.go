@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-tango/wego/modules/utils"
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/modules/utils"
+	"github.com/missdeer/wego/setting"
 )
 
 type Image struct {

@@ -250,7 +250,7 @@ err := engine.Where(builder.NotIn("a", 1, 2).And(builder.In("b", "c", "d", "e"))
 
 * [github.com/m3ng9i/qreader](https://github.com/m3ng9i/qreader)
 
-* [Wego](http://github.com/go-tango/wego)
+* [Wego](http://github.com/missdeer/wego)
 
 * [Docker.cn](https://docker.cn/)
 

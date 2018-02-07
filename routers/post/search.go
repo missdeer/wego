@@ -16,7 +16,8 @@ package post
 
 import (
 	"fmt"
-	"github.com/go-tango/wego/routers/base"
+
+	"github.com/missdeer/wego/routers/base"
 )
 
 type SearchRouter struct {

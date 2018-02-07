@@ -76,7 +76,7 @@ func main() {
 - [论坛](https://groups.google.com/forum/#!forum/go-tango)
 
 ## 使用案例
-- [Wego](https://github.com/go-tango/wego)  tango结合[xorm](http://www.xorm.io/)开发的论坛
+- [Wego](https://github.com/missdeer/wego)  tango结合[xorm](http://www.xorm.io/)开发的论坛
 - [Pugo](https://github.com/go-xiaohei/pugo) 博客
 - [DBWeb](https://github.com/go-xorm/dbweb) 基于Web的数据库管理工具
 - [Godaily](http://godaily.org) - [github](https://github.com/godaily/news) RSS聚合工具

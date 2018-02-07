@@ -15,9 +15,8 @@
 package admin
 
 import (
+	"github.com/missdeer/wego/models"
 	"github.com/tango-contrib/xsrf"
-
-	"github.com/go-tango/wego/models"
 )
 
 type ModelGet struct {
@@ -86,9 +85,9 @@ func (this *ModelSelect) Post() {
 	if model == "User" {
 		models.ORM().Limit(10).Where("user_name like ?", "%"+search+"%").
 			Iterate(&models.User{}, func(idx int, bean interface{}) error {
-			user := bean.(*models.User)
-			data = append(data, []interface{}{user.Id, user.UserName})
-			return nil
-		})
+				user := bean.(*models.User)
+				data = append(data, []interface{}{user.Id, user.UserName})
+				return nil
+			})
 	}
 }

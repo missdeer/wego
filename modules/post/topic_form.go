@@ -16,9 +16,8 @@ package post
 
 import (
 	"github.com/go-xweb/xweb/validation"
-
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/utils"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/utils"
 )
 
 type TopicAdminForm struct {

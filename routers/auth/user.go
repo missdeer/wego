@@ -15,10 +15,10 @@
 package auth
 
 import (
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/utils"
-	"github.com/go-tango/wego/routers/base"
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/utils"
+	"github.com/missdeer/wego/routers/base"
+	"github.com/missdeer/wego/setting"
 )
 
 type UserRouter struct {

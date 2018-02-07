@@ -1,6 +1,6 @@
 package post
 
-import "github.com/go-tango/wego/models"
+import "github.com/missdeer/wego/models"
 
 type NoticeRouter struct {
 	PostListRouter

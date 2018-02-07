@@ -33,10 +33,9 @@ import (
 	"github.com/go-tango/social-auth/apps"
 	"github.com/howeyc/fsnotify"
 	"github.com/lunny/log"
+	. "github.com/qiniu/api/conf"
 	"github.com/tango-contrib/cache"
 	"github.com/tango-contrib/captcha"
-
-	. "github.com/qiniu/api/conf"
 )
 
 const (

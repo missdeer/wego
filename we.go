@@ -27,11 +27,11 @@ import (
 	"github.com/tango-contrib/xsrf"
 
 	"github.com/go-tango/social-auth"
-	"github.com/go-tango/wego/middlewares"
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/routers"
-	"github.com/go-tango/wego/routers/auth"
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/middlewares"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/routers"
+	"github.com/missdeer/wego/routers/auth"
+	"github.com/missdeer/wego/setting"
 
 	_ "github.com/go-sql-driver/mysql"
 )

@@ -18,10 +18,9 @@ import (
 	"fmt"
 	"net/smtp"
 	"strings"
-	
-	"github.com/lunny/log"
 
-	"github.com/go-tango/wego/setting"
+	"github.com/lunny/log"
+	"github.com/missdeer/wego/setting"
 )
 
 type Message struct {

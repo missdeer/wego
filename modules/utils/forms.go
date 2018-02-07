@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-tango/wego/setting"
 	"github.com/go-xweb/xweb/validation"
+	"github.com/missdeer/wego/setting"
 )
 
 func init() {

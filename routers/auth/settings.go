@@ -16,10 +16,9 @@ package auth
 
 import (
 	"github.com/lunny/log"
-
-	"github.com/go-tango/wego/modules/auth"
-	"github.com/go-tango/wego/routers/base"
-	"github.com/go-tango/wego/setting"
+	"github.com/missdeer/wego/modules/auth"
+	"github.com/missdeer/wego/routers/base"
+	"github.com/missdeer/wego/setting"
 )
 
 // SettingsRouter serves user settings.

@@ -18,11 +18,10 @@ import (
 	"fmt"
 
 	"github.com/Unknwon/i18n"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/modules/mailer"
+	"github.com/missdeer/wego/modules/utils"
 	"github.com/tango-contrib/renders"
-
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/modules/mailer"
-	"github.com/go-tango/wego/modules/utils"
 )
 
 // Send user register mail with active code

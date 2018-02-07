@@ -15,8 +15,8 @@
 package api
 
 import (
-	"github.com/go-tango/wego/modules/utils"
-	"github.com/go-tango/wego/routers/base"
+	"github.com/missdeer/wego/modules/utils"
+	"github.com/missdeer/wego/routers/base"
 )
 
 type Markdown struct {

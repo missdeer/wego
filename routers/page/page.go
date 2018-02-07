@@ -15,8 +15,8 @@
 package page
 
 import (
-	"github.com/go-tango/wego/models"
-	"github.com/go-tango/wego/routers/base"
+	"github.com/missdeer/wego/models"
+	"github.com/missdeer/wego/routers/base"
 )
 
 type Show struct {
