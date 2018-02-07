@@ -33,7 +33,7 @@ import (
 	"github.com/go-tango/social-auth"
 	"github.com/go-tango/social-auth/apps"
 	"github.com/lunny/log"
-	. "github.com/qiniu/api/conf"
+	. "github.com/qiniu/api.v6/conf"
 	"github.com/tango-contrib/cache"
 	"github.com/tango-contrib/captcha"
 )

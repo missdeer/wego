@@ -12,7 +12,7 @@ import (
 
 	"github.com/missdeer/wego/models"
 	"github.com/missdeer/wego/modules/utils"
-	"github.com/qiniu/api/io"
+	"github.com/qiniu/api.v6/io"
 )
 
 func SaveImageToQiniu(m *models.Image, r goio.ReadSeeker, mime string, filename string, created time.Time, bucketName string) error {

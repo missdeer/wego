@@ -34,7 +34,7 @@ import (
 	"github.com/missdeer/wego/modules/utils"
 	"github.com/missdeer/wego/setting"
 
-	qio "github.com/qiniu/api/io"
+	qio "github.com/qiniu/api.v6/io"
 )
 
 // CanRegistered checks if the username or e-mail is available.

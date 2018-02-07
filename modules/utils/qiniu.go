@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/qiniu/api/fop"
-	"github.com/qiniu/api/rs"
+	"github.com/qiniu/api.v6/fop"
+	"github.com/qiniu/api.v6/rs"
 )
 
 func GetQiniuUptoken(bucketName string) string {
