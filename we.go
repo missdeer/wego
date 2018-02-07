@@ -19,21 +19,20 @@ package main
 import (
 	"time"
 
-	"github.com/lunny/tango"
-	"github.com/tango-contrib/debug"
-	"github.com/tango-contrib/events"
-	"github.com/tango-contrib/flash"
-	"github.com/tango-contrib/session"
-	"github.com/tango-contrib/xsrf"
-
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/go-tango/social-auth"
+	"github.com/lunny/tango"
+	_ "github.com/mattn/go-sqlite3"
 	"github.com/missdeer/wego/middlewares"
 	"github.com/missdeer/wego/models"
 	"github.com/missdeer/wego/routers"
 	"github.com/missdeer/wego/routers/auth"
 	"github.com/missdeer/wego/setting"
-
-	_ "github.com/go-sql-driver/mysql"
+	"github.com/tango-contrib/debug"
+	"github.com/tango-contrib/events"
+	"github.com/tango-contrib/flash"
+	"github.com/tango-contrib/session"
+	"github.com/tango-contrib/xsrf"
 )
 
 func initTango(isprod bool) *tango.Tango {
